@@ -1,0 +1,6 @@
+<div class="container">
+  <form (ngSubmit)="onSubmit()">
+    <input [(ngModel)]="username" required="true" type="text" name="member" placeholder="Enter github username" />
+  </form>
+  <div *ngIf="username"></div>
+</div>
